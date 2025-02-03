@@ -439,7 +439,7 @@ hr {
 .budget-card__circle-image {
   display: inline-block;
   margin-bottom: 15px;
-
+  box-shadow: 3px 4px 100px 0px rgba(75, 177, 255, 0.2);
   border-radius: 50%;
   overflow: hidden;
   width: 150px;
@@ -472,6 +472,7 @@ hr {
   padding: 13px 41px;
   border-radius: 10px;
   border: 1px solid #9c9c9c;
+  box-shadow: 3px 4px 100px 0px rgba(75, 177, 255, 0.2);
   background: transparent;
   float: left;
   background-color: transparent;
