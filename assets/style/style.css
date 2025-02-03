@@ -290,6 +290,9 @@ hr {
 }
 
 /* Solutions that work for you */
+.solution {
+  margin-bottom: 72px;
+}
 .solution-info__text {
   display: flex;
   flex-direction: column;
@@ -373,4 +376,168 @@ hr {
   cursor: pointer;
   color: rgb(0, 0, 0);
   margin-top: 10px;
+}
+
+/* Flexible spend limits for any need */
+
+.container-grey {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+
+.budget-info {
+  margin-left: 28px;
+  padding: 95px 0 1px 0;
+}
+.budget-info__text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+  gap: 20px;
+}
+
+.budget-info__text span:nth-of-type(1) {
+  font-size: 36px;
+  letter-spacing: 1.61px;
+}
+.budget-info__text span:nth-of-type(2) {
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  max-width: 850px;
+}
+.budget-info_btn {
+  align-self: start;
+  padding: 13px 41px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+}
+
+.budget-card {
+  background: #ffffff;
+  margin: 100px 50px 100px 0;
+  border-radius: 20px;
+}
+.budget-card__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  padding: 50px;
+}
+.budget-card__info__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.budget-card__circle-image {
+  display: inline-block;
+  margin-bottom: 15px;
+
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px;
+  height: 150px;
+}
+.budget-card__circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.budget-card_name {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.31px;
+  color: #212121;
+}
+.budget-card_work {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.31px;
+  color: #6d6d6d;
+}
+.budget-card_employee {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.budget-card_employee div {
+  font-size: 14px;
+  padding: 13px 41px;
+  border-radius: 10px;
+  border: 1px solid #9c9c9c;
+  background: transparent;
+  float: left;
+  background-color: transparent;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  position: relative;
+}
+
+.budget-card_employee div:nth-of-type(1)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 8px;
+  width: 20px;
+  height: 25px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/attack.png);
+}
+.budget-card_employee div:nth-of-type(2)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/dota.png);
+}
+.budget-card_employee div:nth-of-type(3)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/finance.png);
+}
+.budget-card_employee div:nth-of-type(4)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/games.png);
+}
+.budget-card_employee div:nth-of-type(5)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/korea.png);
+}
+.budget-card_employee div:nth-of-type(6)::before {
+  content: ' ';
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 20px;
+  height: 20px;
+  background-size: 100% 100%;
+  background-image: url(/assets/img/icons/travel.png);
 }
