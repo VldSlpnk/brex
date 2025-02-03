@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/style/style.css" />
     <link rel="icon" href="/assets/img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,6 +17,7 @@
       rel="stylesheet"
     />
     <title>Brex</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -153,36 +158,64 @@
         <div class="budget-info">
           <div class="budget-info__text">
             <span>Flexible spend limits for any need.</span>
-            <span
-              >Enable spend for any purpose — from travel to stipends to procurements — at all levels of your company. All on one card. With controls built in. That's the magic of budgets.</span
-            >
+            <span>
+              Enable spend for any purpose — from travel to stipends to
+              procurements — at all levels of your company. All on one card.
+              With controls built in. That's the magic of budgets.
+            </span>
             <button class="budget-info_btn">See how budgets work</button>
           </div>
           <div class="budget-card">
             <div class="budget-card__info">
               <div class="budget-card__info__img">
-              <span class="budget-card__circle-image">
-                <img src="/assets/img/card/photo_2025-02-03_12-32-37.jpg"/>
-               </span>
-               <div class="budget-card_name">Amina Nechaieva</div>
-              <div class="budget-card_work">Web Designer</div>
+                <span class="budget-card__circle-image">
+                  <img
+                    src="/assets/img/card/photo_2025-02-03_12-32-37.jpg"
+                    alt="Card photo"
+                  />
+                </span>
+                <div class="budget-card_name">Amina Nechaieva</div>
+                <div class="budget-card_work">Web Designer</div>
               </div>
-               <div class="budget-card_employee">
-              <div>best anime Attack on Titan</div>
-              <div>best game Dota 2</div>
-              <div>love money</div>
-              <div>love games</div>
-              <div>love Korea</div>
-              <div>love travelling</div>
-              
+              <div class="budget-card_employee">
+                <div>best anime Attack on Titan</div>
+                <div>best game Dota 2</div>
+                <div>love money</div>
+                <div>love games</div>
+                <div>love South Korea</div>
+                <div>love travelling</div>
+              </div>
+            </div>
           </div>
+        </div>
       </div>
     </section>
 
     <section class="slider">
-      <div class="container">
-        hello
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="/assets/img/slider/photo_2025-02-03_14-51-54.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slider/photo_2025-02-03_14-51-52.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slider/photo_2025-02-03_14-51-49.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slider/photo_2025-02-03_14-51-45.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="/assets/img/slider/photo_2025-02-03_14-51-37.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
       </div>
+
+      <script src="/assets/js/slider.js"></script>
     </section>
   </body>
 </html>

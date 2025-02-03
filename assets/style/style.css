@@ -231,7 +231,8 @@ nav a:hover,
 }
 
 .main-content__img img {
-  max-width: 600px;
+  max-width: 100%;
+  height: auto;
 }
 .main-content__info {
   display: flex;
@@ -354,7 +355,11 @@ hr {
   color: white;
   margin-top: 10px;
 }
-
+.solution-info__black img,
+.solution-info__white img {
+  max-width: 100%;
+  height: auto;
+}
 .solution-info__white {
   background-image: url(/assets/img/solution/sol_bg_white.svg);
 }
@@ -541,4 +546,28 @@ hr {
   height: 20px;
   background-size: 100% 100%;
   background-image: url(/assets/img/icons/travel.png);
+}
+
+/* Slider */
+.swiper {
+  width: 1000px;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  width: 20%;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+.swiper-button-next,
+.swiper-button-prev,
+.swiper-pagination {
+  color: #6cd0ff !important;
 }
